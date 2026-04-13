@@ -23,7 +23,7 @@ st.set_page_config(
 HERE = Path(__file__).parent
 ROOT = HERE.parent
 
-MODEL_URL = "xxx"
+MODEL_URL = "https://github.com/armangupta910/Road-Damage-Detection/blob/main/models/YOLOv8_Small_RDD.pt"
 MODEL_LOCAL_PATH = ROOT / "./models/YOLOv8_Small_RDD.pt"
 download_file(MODEL_URL, MODEL_LOCAL_PATH, expected_size=89569358)
 
